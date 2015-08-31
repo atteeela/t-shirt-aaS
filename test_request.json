@@ -1,0 +1,7 @@
+{
+    "service": "lanthias/tshirts",
+    "request": {
+        "method": "add",
+        "params": [1, 2]
+    }
+}
