@@ -4,10 +4,15 @@
 tshirts Service
 """
 import stackhut
+import stackhut_client as client
 
 class Default(stackhut.Service):
-    def add(self, x, y):
-        return x + y
+
+    def getShirt(self, address): 
+        author = stackhut.service_author()
+        service = client.SHClient('stackhut', 'tshirt-love')
+        service.Default.gimmeTheLoot(author, address)
+        return None
 
 # export the services
 SERVICES = {"Default": Default()}
