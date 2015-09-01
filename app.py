@@ -8,11 +8,11 @@ import stackhut_client as client
 
 class Default(stackhut.Service):
 
-    def getShirt(self, address): 
-        author = stackhut.service_author()
-        service = client.SHClient('stackhut', 'tshirt-love')
-        service.Default.gimmeTheLoot(author, address)
-        return None
+    def getShirt(self, address, useCase): 
+        name = stackhut.get_service_author()
+        service = client.SHService('stackhut', 'tshirt-love')
+        service.Default.gimmeTheLoot(name, address, useCase)
+        return True
 
 # export the services
 SERVICES = {"Default": Default()}
