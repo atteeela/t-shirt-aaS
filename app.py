@@ -13,10 +13,14 @@ class Default(stackhut.Service):
         # first create a service reference
         service = client.SHService('stackhut', 'tshirt-love')
         # then call the service end-point
-        service.Default.gimmeTheLoot(name, address, useCase)
+        res = service.Default.gimmeTheLoot(name, address, useCase)
 
         # exit the service and return to the client
-        return ("Thanks {}, your t-shirt is in the post".format(name))
+        if res:
+            return ("Thanks {}, your t-shirt is in the post".format(name))
+        else:
+            return ("Sorry {}, we didn't understand that - please try again".format(name))
+        
 
 # export the services
 SERVICES = {"Default": Default()}
