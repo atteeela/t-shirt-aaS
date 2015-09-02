@@ -1,8 +1,8 @@
 # Service name (a combination of lower case letters, numbers, and dashes)
-name: tshirts
+name: t-shirt-aaS
 
 # Service description
-description: Awesome service in python
+description: get yo' shirt fool
 
 # GitHub source repo link (optional)
 # github_url: www.github.com/...

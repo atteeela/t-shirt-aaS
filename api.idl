@@ -1,4 +1,5 @@
 interface Default {
     // get yo' shirt fool
-    getShirt(address string, useCase string) bool
+    getShirt(address string, useCase string) string
 }
+
