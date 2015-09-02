@@ -1,0 +1,8 @@
+{
+    "service": "USERNAME/t-shirt-aas",
+    "request": {
+        "method": "getShirt",
+        "params": ["YOUR ADDRESS", "WHAT DO YOU WANT FROM STACKHUT :)"]
+    }
+}
+

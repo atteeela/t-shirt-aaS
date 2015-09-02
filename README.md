@@ -13,8 +13,8 @@ Use StackHut to deploy a service and get a free t-shirt !
 
     * From Python or NodeJS/IoJS using the [client-libs](https://stackhut.readthedocs.org/en/latest/using_service/client_libs.html)
 
-    * Edit `request.json` and send from the command-line using `curl`,
-        * `curl -H "Content-Type: application/json" -X POST -d @request.json https://api.stackhut.com/run`
+    * Edit `test_request.json` and send from the command-line using `curl`,
+        * `curl -H "Content-Type: application/json" -X POST -d @test_request.json https://api.stackhut.com/run`
  
 1. Receive awesome t-shirt in the post and look cool in front of your friends
 
