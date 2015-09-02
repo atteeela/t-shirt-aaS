@@ -7,7 +7,7 @@ Use StackHut to deploy a service and get a free t-shirt !
 1. [Create a StackHut account](http://www.stackhut.com)
 1. [Install the StackHut toolkit](https://stackhut.readthedocs.org/en/latest/getting_started/installation.html) and run `stackhut login`
 1. Clone this [git repo](https://github.com/StackHut/t-shirt-aaS) 
-1. Deploy the service live under your own account
+1. Deploy the service under your own account
     * `cd t-shirt-aaS; stackhut deploy`
 1. [Call your live service](https://stackhut.readthedocs.org/en/latest/using_service/index.html) with your address and how you'd use StackHut,
 
